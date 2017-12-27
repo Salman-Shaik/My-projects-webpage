@@ -1,0 +1,16 @@
+body{
+  background-image: radial-gradient(white,lightGray,darkGray);
+}
+img{
+  width:50%;
+  height:50%;
+  margin: 0.2%;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px darkGray;
+}
+button{
+}
+a{
+  text-decoration: none;
+  color: black;
+}

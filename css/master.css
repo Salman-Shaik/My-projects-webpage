@@ -9,6 +9,15 @@ img{
   box-shadow: 8px 8px 10px darkGray;
 }
 button{
+  width: 150px;
+  height:50px;
+  padding:2px;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 30px lightGray,inset 0px 0px 30px lightGray;
+  border: 2px solid darkGray;
+  margin-top: 2%;
 }
 a{
   text-decoration: none;

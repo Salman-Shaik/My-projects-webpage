@@ -1,29 +1,35 @@
-const tictactoeGame=function(){
+const loadTictactoeGame=function(){
   window.open('https://im-idiot.github.io/tic-tac-toe/');
 }
-const wordrushGame=function(){
+const loadWordrushGame=function(){
   window.open('https://im-idiot.github.io/WordRush/');
 }
-const obstructionGame=function(){
+const loadObstructionGame=function(){
   window.open('https://im-idiot.github.io/Obstruction/');
 }
-const chompGame=function(){
+const loadChompGame=function(){
   window.open('https://im-idiot.github.io/chomp/');
+}
+const loadillguessitGame=function(){
+  window.open('https://im-idiot.github.io/i-ll-Guess-IT/');
+}
+const loadParanormality=function() {
+  window.open('https://im-idiot.github.io/Paranormality/')
 }
 const addClickListenerToButtons=function() {
   let tictactoe=document.getElementById('tictactoe');
   let wordrush=document.getElementById('wordrush');
   let obstruction=document.getElementById('obstruction');
   let chomp=document.getElementById('chomp');
-  // let wordrush=document.getElementById('wordrush');
-  // let wordrush=document.getElementById('wordrush');
+  let illguessit=document.getElementById('illguessit');
+  let paranormality=document.getElementById('paranormality');
 
-  wordrush.onclick=wordrushGame;
-  tictactoe.onclick=tictactoeGame;
-  obstruction.onclick=obstructionGame;
-  chomp.onclick=chompGame;
-  // wordrush.onclick=wordrushGame;
-  // wordrush.onclick=wordrushGame;
+  wordrush.onclick=loadWordrushGame;
+  tictactoe.onclick=loadTictactoeGame;
+  obstruction.onclick=loadObstructionGame;
+  chomp.onclick=loadChompGame;
+  illguessit.onclick=loadillguessitGame;
+  paranormality.onclick=loadParanormality;
 }
 const begin=function() {
   addClickListenerToButtons();

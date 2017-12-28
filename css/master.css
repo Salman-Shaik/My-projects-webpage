@@ -1,7 +1,12 @@
 body {
   background-image: radial-gradient(#d6f3f4, #fffdd9, #ffe4fa);
 }
-
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
 img {
   width: 50%;
   height: 50%;
@@ -9,7 +14,9 @@ img {
   border-radius: 10px;
   box-shadow: 8px 8px 10px darkGray;
 }
-
+p{
+  font-size: 18px;
+}
 button {
   width: 150px;
   height: 50px;
@@ -19,8 +26,8 @@ button {
   border-radius: 5px;
   border: 2px solid darkGray;
   margin-top: 2%;
+  box-shadow: 5px 8px 10px darkGray;
 }
-
 .play {
   box-shadow: inset 0px 0px 30px lightGray, inset 0px 0px 30px lightGray;
 }
@@ -46,4 +53,10 @@ a {
   font-size: 25px;
   width: 800px;
   height: 60px;
+}
+.projects{
+  padding: 2%;
+  margin:0.8%;
+  border-radius: 7px;
+  box-shadow: inset 0px 8px 30px #fffdd9, 0px 8px 10px darkGray;
 }

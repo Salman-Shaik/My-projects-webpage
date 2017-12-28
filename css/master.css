@@ -1,25 +1,49 @@
-body{
-  background-image: radial-gradient(white,lightGray,darkGray);
+body {
+  background-image: radial-gradient(#d6f3f4, #fffdd9, #ffe4fa);
 }
-img{
-  width:50%;
-  height:50%;
+
+img {
+  width: 50%;
+  height: 50%;
   margin: 0.2%;
   border-radius: 10px;
   box-shadow: 8px 8px 10px darkGray;
 }
-button{
+
+button {
   width: 150px;
-  height:50px;
-  padding:2px;
+  height: 50px;
+  padding: 2px;
   background-color: white;
   font-size: 17px;
   border-radius: 5px;
-  box-shadow: inset 0px 0px 30px lightGray,inset 0px 0px 30px lightGray;
   border: 2px solid darkGray;
   margin-top: 2%;
 }
-a{
+
+.play {
+  box-shadow: inset 0px 0px 30px lightGray, inset 0px 0px 30px lightGray;
+}
+
+a {
   text-decoration: none;
   color: black;
+}
+
+.feedback {
+  background-image: radial-gradient(#d6f3f4, #fffdd9, #ffe4fa);
+  margin: 0.8%;
+}
+
+#feedbackButton {
+  background-color: #2fff00;
+  padding: 0px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 1% 2% 1% 2%;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 800px;
+  height: 60px;
 }

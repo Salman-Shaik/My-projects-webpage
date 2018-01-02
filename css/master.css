@@ -1,8 +1,10 @@
 body {
-  background-image: radial-gradient(#d6f3f4, #fffdd9, #ffe4fa);
+  background-image: linear-gradient(to left bottom, #f5488f, #ff6b72, #ff9959, #ffc850, #fef665);
 }
 h1{
   font-size: 40px;
+  display: inline-block;
+  margin-left: 16%;
 }
 h2{
   font-size: 30px;
@@ -38,7 +40,7 @@ a {
 }
 
 .feedback {
-  background-image: radial-gradient(#d6f3f4, #fffdd9, #ffe4fa);
+  background-image: linear-gradient(to left bottom, #f5488f, #ff6b72, #ff9959, #ffc850, #fef665);
   margin: 0.8%;
 }
 
@@ -58,5 +60,10 @@ a {
   padding: 2%;
   margin:0.8%;
   border-radius: 7px;
-  box-shadow: inset 0px 8px 30px #fffdd9, 0px 8px 10px darkGray;
+  box-shadow: inset 0px 8px 30px #ff6b72, 0px 8px 10px darkGray;
+}
+.social{
+  display: inline-block;
+  margin: 1%;
+  float: right;
 }

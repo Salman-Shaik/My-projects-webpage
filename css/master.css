@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to left bottom, #f5488f, #ff6b72, #ff9959, #ffc850, #fef665);
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 h1{
   font-size: 40px;

@@ -1,5 +1,5 @@
 body {
-  background-image: radial-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+background-image: linear-gradient(to top, #f95d5f, #eb8c36, #c5b635, #8dd86c, #17f3be);
 }
 h1{
   font-size: 40px;
@@ -40,12 +40,13 @@ a {
 }
 
 .feedback {
-  background-image: linear-gradient(to left bottom, #f5488f, #ff6b72, #ff9959, #ffc850, #fef665);
+background-image: linear-gradient(to top, #eb8c36,#f95d5f);
   margin: 0.8%;
+  border-radius: 5px;
 }
 
 #feedbackButton {
-  background-color: #2fff00;
+  background-image: linear-gradient(to bottom, #8afb71, #7afc5f, #68fd4c, #51fe33, #2fff00);
   padding: 0px;
   border: 0px;
   border-radius: 5px;
@@ -60,7 +61,7 @@ a {
   padding: 2%;
   margin:0.8%;
   border-radius: 7px;
-  box-shadow: inset 0px 8px 30px #ff6b72, 0px 8px 10px darkGray;
+  box-shadow: inset 0px 8px 30px #c5b635, 0px 8px 10px darkGray;
 }
 .social{
   display: inline-block;

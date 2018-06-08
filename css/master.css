@@ -1,23 +1,29 @@
 body {
-background-image: linear-gradient(to top, #f95d5f, #eb8c36, #c5b635, #8dd86c, #17f3be);
+background-image: radial-gradient(circle, #290000, #2e0201, #340201, #3b0101, #410000);
 }
 h1{
   font-size: 40px;
   display: inline-block;
   margin-left: 16%;
+  color: #f0d490;
+  font-family: 'Roboto', sans-serif;
 }
 h2{
   font-size: 30px;
+  color: #f0d490;
+  font-family: 'Roboto', sans-serif;
 }
 img {
   width: 50%;
   height: 50%;
-  margin: 0.2%;
+  margin: 0.6%;
   border-radius: 10px;
-  box-shadow: 8px 8px 10px darkGray;
+  box-shadow: 4px 4px 10px #955c5c;
 }
-p{
-  font-size: 18px;
+#main{
+  font-size: 20px;
+font-family: 'Caesar Dressing', cursive;
+  color: #f0d490;
 }
 button {
   width: 150px;
@@ -25,28 +31,24 @@ button {
   padding: 2px;
   background-color: white;
   font-size: 17px;
+  font-weight:bolder;
   border-radius: 5px;
-  border: 2px solid darkGray;
+  border: 2px solid #f0d490;
   margin-top: 2%;
-  box-shadow: 5px 8px 10px darkGray;
+  box-shadow: 5px 8px 10px #702222;
 }
 .play {
-  box-shadow: inset 0px 0px 30px lightGray, inset 0px 0px 30px lightGray;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+  box-shadow: inset 5px 5px 30px #f0d490, inset 10px 10px 20px #f0d490;
 }
 
 .feedback {
-background-image: linear-gradient(to top, #eb8c36,#f95d5f);
+background-image: linear-gradient(to top, #340201,#410000);
   margin: 0.8%;
   border-radius: 5px;
 }
 
 #feedbackButton {
-  background-image: linear-gradient(to bottom, #8afb71, #7afc5f, #68fd4c, #51fe33, #2fff00);
+  background: #f7cb5d;
   padding: 0px;
   border: 0px;
   border-radius: 5px;
@@ -57,14 +59,32 @@ background-image: linear-gradient(to top, #eb8c36,#f95d5f);
   width: 800px;
   height: 60px;
 }
+p{
+  padding: 1% 20%;
+}
 .projects{
   padding: 2%;
   margin:0.8%;
   border-radius: 7px;
-  box-shadow: inset 0px 8px 30px #c5b635, 0px 8px 10px darkGray;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  color: #f0d490;
+  box-shadow: inset 0px 8px 30px #3b0101, 0px 5px 30px #955c5c;
 }
+
+hr{
+  border-color: #f0d490
+}
+
 .social{
   display: inline-block;
   margin: 1%;
   float: right;
+}
+
+.fb{
+  margin:14% 0% 0% 0%;
+  padding: 2%;
+  border-radius: 5px;
+background-color:#f0d490;
 }
